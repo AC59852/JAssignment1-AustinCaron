@@ -1,0 +1,22 @@
+<section class="hero">
+  {{!-- image carousel --}}
+  <ul class="hero__carousel">
+    {{#each featuredData}}
+    <li class="hero__carousel-item">
+      <h2>{{featuredTitle}}</h2>
+      <img src="{{featuredImg}}" alt="">
+    </li>
+    {{/each}}
+</section>
+<section class="products">
+  <h2>All Pens</h2>
+  <ul class="products__list">
+    {{#each productData}}
+    <li class="products__item">
+      <img src="{{img}}" alt="">
+      <h3>{{title}}</h3>
+      <span>{{price}}</span>
+      <a href="#" class="products__link">Buy Now</a>
+    </li>
+    {{/each}}
+</section>
