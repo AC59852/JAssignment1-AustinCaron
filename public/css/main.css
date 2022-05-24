@@ -131,8 +131,14 @@ img {
   text-align: center;
 }
 
+.cards__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .cards__card {
   width: 75%;
+  max-width: 300px;
   margin: 10% auto;
   display: flex;
   flex-direction: column;
@@ -145,6 +151,9 @@ img {
 }
 
 .card__info {
+  display: flex;
+  flex-direction: column;
+  height: 140px;
   background-color: #303238;
   color: white;
   padding: 15px 15px 20px 15px;
@@ -163,14 +172,20 @@ img {
   font-family: var(--body);
   font-size: 0.86rem;
   line-height: 1.5;
-  margin-bottom: 13%;
 }
 
 .card__link {
   font-family: var(--body);
+  font-size: 0.86rem;
+  margin-top: auto;
+  margin-bottom: 4%;
+}
+
+.card__buy {
   color: white;
   text-decoration: none;
-  font-size: 0.86rem;
+  border-bottom: solid 2px white;
+  padding-bottom: 2%;
 }
 
 @media screen and (min-width: 760px) {
