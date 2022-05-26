@@ -505,7 +505,10 @@ img {
     display: flex;
   }
 
-  .value__img { width: 50%; }
+  .value__img { 
+    width: 50%; 
+    margin-bottom: 0;
+  }
   
   .value__text {
     width: 50%;
