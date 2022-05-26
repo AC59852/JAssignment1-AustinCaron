@@ -3,6 +3,8 @@
   --body: 'Open Sans', sans-serif;
 }
 
+/* start of header */
+
 .header {
   position: fixed;
   top: 0;
@@ -97,6 +99,10 @@ img {
   left: 0;
 }
 
+/* end of header */
+
+/* start of home */
+
 .hero {
   text-align: center;
   margin: 90px 0 10%;
@@ -107,17 +113,17 @@ img {
 
 .content__subtitle {
   font-family: var(--heading);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 .content__title {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-family: var(--heading);
   font-weight: 600;
   letter-spacing: 0.5px;
 }
 
-.hero__btn {
+.hero__btn, .closing__link {
   font-family: var(--heading);
   font-size: 0.9rem;
   font-weight: bold;
@@ -191,6 +197,46 @@ img {
   padding-bottom: 2%;
 }
 
+.card__stats {
+  margin: 30px 0 45px;
+}
+
+.value {
+  margin: 40px 0;
+}
+
+.value__img {
+  margin-bottom: 30px;
+}
+
+.value__subtitle, .value__title, .closing__subtitle, .closing__title {
+  text-align: center;
+}
+
+.value__title, .closing__title {
+  margin: 10px 0 25px;
+}
+
+.value__para {
+  font-family: var(--body);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.closing__link {
+  display: block;
+  width: min(45%, 190px);
+  padding: 20px 0;
+  margin: 0 auto 40px;
+}
+
+/* end of home */
+
+
+/* start of about */
+
 .content__title--about {
   font-size: 2.1rem;
   line-height: 1.3;
@@ -214,7 +260,7 @@ img {
   margin-bottom: 15px;
 }
 
-.stats__wrapper {
+.stats__wrapper, .card__stats ul {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -222,19 +268,19 @@ img {
   gap: 15px;
 }
 
-.stats__stat {
+.stats__stat, .card__stat {
   width: 40%;
   text-align: center;
 }
 
-.stats__stat h3 {
+.stats__stat h3, .card__stat-desc {
   font-family: var(--heading);
   font-size: 1.5rem;
   font-weight: 600;
   margin: 6px 0;
 }
 
-.stats__stat p {
+.stats__stat p, .card__stat-title {
   font-family: var(--body);
   font-size: 0.9rem;
 }
@@ -282,6 +328,11 @@ img {
 .mission p {
   line-height: 1.5;
 }
+
+/* end of about */
+
+
+/* start of products */
 
 .featured {
   position: relative;
@@ -361,6 +412,10 @@ img {
   font-size: 0.9rem;
 }
 
+/* end of products */
+
+
+/* start of queries */
 
 @media screen and (min-width: 760px) {
   .header {
@@ -454,3 +509,5 @@ img {
 @media screen and (min-width: 1600px) {
   .header { gap: 70%; }
 }
+
+/* end of queries */
