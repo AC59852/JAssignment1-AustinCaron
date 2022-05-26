@@ -388,6 +388,11 @@ img {
   bottom: -4px;
 }
 
+.products__list {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .products__name {
   font-family: var(--heading);
   font-size: 1.4rem;
@@ -530,6 +535,14 @@ img {
   .closing__title {
     width: 60%;
     margin: 10px auto 25px;
+  }
+
+  .featured h2, .featured h3 {
+    font-size: 4rem;
+  }
+
+  .products__title {
+    margin: 60px 9%;
   }
 }
 
