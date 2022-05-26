@@ -130,7 +130,7 @@ img {
   background: #22247e;
   border-radius: 3px;
   padding: 12px 0;
-  width: min(33%, 150px);
+  width: min(33%, 165px);
   margin: 15px auto 0;
   color: white;
   text-decoration: none;
@@ -223,6 +223,10 @@ img {
   line-height: 1.5;
   width: 95%;
   margin: 0 auto;
+}
+
+.value__para:last-child {
+  display: none;
 }
 
 .closing__link {
@@ -470,12 +474,59 @@ img {
     text-align: left;
   }
 
-  .nav__link {
-    font-size: 1rem;
+  .nav__link { font-size: 1rem; }
+
+  .nav__close { display: none; }
+
+  .hero {
+    margin: 150px 0 75px;
   }
 
-  .nav__close {
-    display: none;
+  .content__subtitle { font-size: 1.2rem; }
+
+  .content__title { font-size: 3.6rem; }
+
+  .hero__btn {
+    font-size: 1.2rem;
+    padding: 16px 0;
+  }
+
+  .card__stats { margin: 65px 0 95px; }
+
+  .card__stats ul { gap: 55px; }
+
+  .card__stat { width: auto; }
+
+  .card__stat-desc { font-size: 1.8rem; }
+
+  .card_stat-title { font-size: 1rem; }
+
+  .value {
+    display: flex;
+  }
+
+  .value__img { width: 50%; }
+  
+  .value__text {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .value__title { font-size: 2.5rem; }
+
+  .value__para {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .value__para:last-child {
+    display: block;
+    margin-top: 18px;
+  }
+
+  .closing__title {
+    width: 60%;
+    margin: 10px auto 25px;
   }
 }
 
