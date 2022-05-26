@@ -547,6 +547,73 @@ img {
   .nav__link {
     font-size: 1.1rem;
   }
+
+  .hero {
+    margin: 185px 0 45px;
+  }
+
+  .content__subtitle { font-size: 1.5rem; }
+
+  .content__title { font-size: 4.2rem; }
+
+  .hero__btn { font-size: 1rem; }
+
+  .cards {
+    background-image: url('../images/abstract_white.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 250px;
+  }
+
+  .cards__list {
+    width: 87%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .cards__card:nth-child(1) { margin-top: 140px; }
+  .cards__card:nth-child(2) { margin-top: 95px; }
+  .cards__card:nth-child(3) { margin-top: 55px; }
+
+  .card__stats {
+    margin: 80px 0 0;
+    padding-bottom: 130px;
+  }
+
+  .card__stats ul { gap: 90px; }
+
+  .card__stat-desc {
+    font-size: 2.2rem;
+    margin: 11px 0;
+  }
+
+  .card__stat-title { font-size: 1rem; }
+
+  .value {
+    height: 480px;
+    margin: 100px 0 150px;
+  }
+
+  .value__img { object-fit: cover; }
+
+  .value__title { font-size: 3rem; }
+
+  .value__para {
+    width: 84%;
+    font-size: 1rem;
+    max-width: 640px;
+  }
+
+  .closing__title {
+    width: 45%;
+    max-width: 600px;
+    margin: 15px auto 30px;
+    font-size: 3.8rem;
+  }
+
+  .closing__link {
+    margin: 0 auto 75px;
+  }
 }
 
 @media screen and (min-width: 1279px) {
@@ -558,6 +625,8 @@ img {
     gap: 66%;
     justify-content: space-around;
   }
+
+  .hero { margin: 75px 0 45px; }
 }
 
 @media screen and (min-width: 1600px) {
