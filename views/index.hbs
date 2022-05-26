@@ -4,14 +4,16 @@
   <a class="hero__btn" href="/products">Get Started!</a>
 </section>
 <section class="cards">
-  <ul>
+  <ul class="cards__list">
     {{#each cardData}}
       <li class="cards__card">
         <img class="card__img" src="{{img}}" alt="Image of a {{title}}">
         <div class="card__info">
           <h2 class="card__title">{{title}}</h2>
           <p class="card__desc">{{description}}</p>
-          <a href="/" class="card__link">Buy Now</a>
+          <div class="card__link">
+            <a href="/" class="card__buy">Buy Now</a>
+          </div>
         </div>
       </li>
     {{/each}}
