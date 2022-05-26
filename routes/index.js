@@ -17,9 +17,9 @@ let cardData = [
 ],
 statData = [
   {id: 1, statTitle: 'Pens sold', statValue: '1,000,000,000'},
-  {id: 3, statTitle: 'Recyclability', statValue: '100%'},
-  {id: 2, statTitle: 'Users Reached', statValue: '72,000,000'},
-  {id: 4, statTitle: 'Customers Satisfied', statValue: '100%'}
+  {id: 2, statTitle: 'Recyclability', statValue: '100%'},
+  {id: 3, statTitle: 'Customers Satisfied', statValue: '100%'},
+  {id: 4, statTitle: 'Users Reached', statValue: '72,000,000'}
 ],
 featuredData = [
   {id: 1, featuredTitle: 'Ballpoint Pen', featuredImg: 'images/ballpoint_pen.jpg'},
